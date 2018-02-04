@@ -39,7 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7923AA41202727ED0041260A /* Musician App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musician App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7923AA41202727ED0041260A /* Play Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7923AA44202727ED0041260A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7923AA46202727ED0041260A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7923AA49202727ED0041260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		7923AA38202727ED0041260A = {
 			isa = PBXGroup;
 			children = (
-				7923AA43202727ED0041260A /* Musician App */,
+				7923AA43202727ED0041260A /* Play Music */,
 				7923AA42202727ED0041260A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,12 +94,12 @@
 		7923AA42202727ED0041260A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7923AA41202727ED0041260A /* Musician App.app */,
+				7923AA41202727ED0041260A /* Play Music.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7923AA43202727ED0041260A /* Musician App */ = {
+		7923AA43202727ED0041260A /* Play Music */ = {
 			isa = PBXGroup;
 			children = (
 				7923AA44202727ED0041260A /* AppDelegate.swift */,
@@ -115,7 +115,7 @@
 				7923AA6C202742140041260A /* Piano Sounds */,
 				7923AA5B202731890041260A /* Xylophone Sounds */,
 			);
-			path = "Musician App";
+			path = "Play Music";
 			sourceTree = "<group>";
 		};
 		7923AA5B202731890041260A /* Xylophone Sounds */ = {
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7923AA40202727ED0041260A /* Musician App */ = {
+		7923AA40202727ED0041260A /* Play Music */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7923AA53202727ED0041260A /* Build configuration list for PBXNativeTarget "Musician App" */;
+			buildConfigurationList = 7923AA53202727ED0041260A /* Build configuration list for PBXNativeTarget "Play Music" */;
 			buildPhases = (
 				7923AA3D202727ED0041260A /* Sources */,
 				7923AA3E202727ED0041260A /* Frameworks */,
@@ -175,9 +175,9 @@
 			);
 			dependencies = (
 			);
-			name = "Musician App";
+			name = "Play Music";
 			productName = "Musician App";
-			productReference = 7923AA41202727ED0041260A /* Musician App.app */;
+			productReference = 7923AA41202727ED0041260A /* Play Music.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7923AA3C202727ED0041260A /* Build configuration list for PBXProject "Musician App" */;
+			buildConfigurationList = 7923AA3C202727ED0041260A /* Build configuration list for PBXProject "Play Music" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -209,7 +209,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7923AA40202727ED0041260A /* Musician App */,
+				7923AA40202727ED0041260A /* Play Music */,
 			);
 		};
 /* End PBXProject section */
@@ -423,7 +423,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7923AA3C202727ED0041260A /* Build configuration list for PBXProject "Musician App" */ = {
+		7923AA3C202727ED0041260A /* Build configuration list for PBXProject "Play Music" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7923AA51202727ED0041260A /* Debug */,
@@ -432,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7923AA53202727ED0041260A /* Build configuration list for PBXNativeTarget "Musician App" */ = {
+		7923AA53202727ED0041260A /* Build configuration list for PBXNativeTarget "Play Music" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7923AA54202727ED0041260A /* Debug */,
