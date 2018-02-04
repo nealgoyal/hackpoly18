@@ -1,5 +1,5 @@
 //
-//  XylophoneViewController.swift
+//  TriangleViewController.swift
 //  Musician App
 //
 //  Created by Neal Goyal on 2/4/18.
@@ -9,11 +9,9 @@
 import UIKit
 import AVFoundation
 
-
-class XylophoneViewController: UIViewController {
+class TriangleViewController: UIViewController {
     
     var audioPlayer: AVAudioPlayer!
-    let soundXyArray = ["note1", "note2", "note3", "note4", "note5", "note6", "note7"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +24,8 @@ class XylophoneViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func notePressed(_ sender: UIButton) {
-        playSound(sound : soundXyArray[sender.tag - 1])
+    @IBAction func trianglePressed(_ sender: UIButton) {
+        playSound(sound : "triangle")
     }
     
     func playSound(sound : String) {
@@ -43,7 +40,6 @@ class XylophoneViewController: UIViewController {
         
         audioPlayer.play()
     }
-
     /*
     // MARK: - Navigation
 

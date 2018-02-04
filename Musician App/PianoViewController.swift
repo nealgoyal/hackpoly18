@@ -1,5 +1,5 @@
 //
-//  XylophoneViewController.swift
+//  PianoViewController.swift
 //  Musician App
 //
 //  Created by Neal Goyal on 2/4/18.
@@ -9,12 +9,11 @@
 import UIKit
 import AVFoundation
 
-
-class XylophoneViewController: UIViewController {
+class PianoViewController: UIViewController {
     
     var audioPlayer: AVAudioPlayer!
-    let soundXyArray = ["note1", "note2", "note3", "note4", "note5", "note6", "note7"]
-
+    let soundArray = ["c1", "c1s", "d1", "d1s", "e1", "f1", "f1s", "g1", "g1s", "a1", "a1s", "b1", "c2", "c1s", "d1", "d1s", "e1"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,11 +25,14 @@ class XylophoneViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func notePressed(_ sender: UIButton) {
-        playSound(sound : soundXyArray[sender.tag - 1])
+    
+    @IBAction func keyPressed(_ sender: UIButton) {
+        
+        playSound(sound: soundArray[sender.tag - 1])
     }
     
+    
+    // Function to play the specific sounds
     func playSound(sound : String) {
         let soundURL = Bundle.main.url(forResource: sound, withExtension: "wav")
         
@@ -43,7 +45,7 @@ class XylophoneViewController: UIViewController {
         
         audioPlayer.play()
     }
-
+    
     /*
     // MARK: - Navigation
 
