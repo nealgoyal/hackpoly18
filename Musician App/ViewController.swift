@@ -20,15 +20,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func xylophonePressed(_ sender: Any) {
-        performSegue(withIdentifier: "goToXylophone", sender: self)
-    }
-    @IBAction func pianoPressed(_ sender: Any) {
-        performSegue(withIdentifier: "goToPiano", sender: self)
-    }
-    @IBAction func trianglePressed(_ sender: Any) {
-        performSegue(withIdentifier: "goToTriangle", sender: self)
-    }
     
 }
 
