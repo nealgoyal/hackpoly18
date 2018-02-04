@@ -12,6 +12,7 @@ import AVFoundation
 
 class XylophoneViewController: UIViewController {
     
+    //Implementation for Playing
     var audioPlayer: AVAudioPlayer!
     let soundXyArray = ["note1", "note2", "note3", "note4", "note5", "note6", "note7"]
 
@@ -25,7 +26,6 @@ class XylophoneViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     @IBAction func notePressed(_ sender: UIButton) {
         playSound(sound : soundXyArray[sender.tag - 1])
@@ -43,6 +43,7 @@ class XylophoneViewController: UIViewController {
         
         audioPlayer.play()
     }
+    
 
     
     
